@@ -12,7 +12,7 @@
 
 <body>
     <h1>D´Pelicula</h1>
-   <!-- Button trigger modal 
+    <!-- Button trigger modal 
      <div class="col-sm-6 col-md-4 col-lg-3 mt-4">
             <div class="card">
                 <a type="button" class="btn btn-primary" data-toggle="modal" data-target="#${movie.imdbID}">
@@ -20,7 +20,7 @@
                 </a>
             </div> -->
 
-                <!-- Modal 
+    <!-- Modal 
             <div class="modal fade" id="${movie.imdbID}" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
                 <div class="modal-dialog" role="document">
                     <div class="modal-content">
@@ -45,9 +45,11 @@
                 </div>
             </div>
         </div> -->
-    
+
     <section class="mt-4">
         <button onclick="getMovies('batman')" class="btn btn-info mx-2">Batman</button>
+        <button onclick="getMovies('wolverine')" class="btn btn-info mx-2">Wolverine</button>
+        <button onclick="getMovies('the-lord-of-the-rings')" class="btn btn-info mx-2">El Señor de los anillos</button>
     </section>
 
     <section>
@@ -56,7 +58,6 @@
             </div>
         </div>
     </section>
-
 
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
         crossorigin="anonymous"></script>
@@ -68,6 +69,5 @@
     <script src="js/drawMovies.js"></script>
 
 </body>
+
 </html>
-
-
