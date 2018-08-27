@@ -54,18 +54,18 @@ requerir los datos.
   - Categorías. Incluye las colecciones de películas.
   - Poster y título. Incluye el poster individual de la película y su título respectivo.
 
-![Alcance Dos](docs/src/alcance2.png)
+![Alcance Dos](docs/src/assets/images/alcance2.png)
 
 ## Alcance 3
 
 - Al darle click a un poster, te lleva a su descripción individual. Puedes crearlo a través de un modal o con una vista
 nueva. Es tu elección.
 
-![Alcance Tres](docs/src/alcance3.png)
+![Alcance Tres](docs/src/assets/images/alcance3.png)
 
 ## Alcance 4
 
 - Consideras integrar autenticación a la plataforma para comenzar tu comunidad. Esto significa que una persona pueda hacer su “login”
 dentro de tu aplicación a través de una red social.  Puedes utilizar Firebase como herramienta para lograrlo.
 
-![Alcance Cuatro](docs/src/alcance4.png)
+![Alcance Cuatro](docs/src/assets/images/alcance4.png)
