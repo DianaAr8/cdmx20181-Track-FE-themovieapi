@@ -1,0 +1,72 @@
+body{
+    background-image: url("../assets/images/movie1.jpg");
+}
+
+.back-white{
+    background-color: #fbfcef!important;
+}
+
+nav .input-field {
+    margin: 0;
+    height: 100%;
+    margin-right: 25rem;
+}
+
+input[type="text"]:not(.browser-default){
+	height: 2rem;
+}
+
+.btn  {
+	height: 48px;
+	border-radius: 5px;
+	background: #941F1C;
+	cursor: pointer;
+}
+
+.nav-content {
+	padding: 10px;
+}
+
+.lowerCase{
+	text-transform: capitalize;
+}
+
+.card{
+	min-height: 560px;
+}
+
+.height-img{
+    height: 400px;
+}
+
+.card-no-border{
+	box-shadow: inherit;
+}
+.img-card{
+	height: 100px;
+}
+
+.badge {
+    font-size: 20px;
+    margin-left: 7rem;
+	padding: 10px;
+	border-radius: 8px;
+}
+
+.tabs .tab a {
+    color: rgba(238, 110, 115, 0.7);
+    display: block;
+    font-size: 14px;
+	text-overflow: ellipsis;
+	margin-left: 150px;
+    padding: 0px 54px;
+}
+
+.tabs .tab a:hover, .tabs .tab a.active, .tabs .tab a:focus, .tabs .tab a:focus.active {
+	background-color: #a34f4fcc;
+}
+
+.tabs.tabs-transparent .tab a{
+	color: #a34f4fcc;
+	font-size: 15px;
+}

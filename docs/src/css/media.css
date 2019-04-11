@@ -1,0 +1,60 @@
+
+@media only screen and (max-width: 1024px) { 
+  
+        .tabs .tab a {
+            color: rgba(238, 110, 115, 0.7);
+            display: block;
+            font-size: 14px;
+            text-overflow: ellipsis;
+            margin-left: 10px;
+            padding: 0px 54px;
+        }
+
+        .badge {
+            font-size: 20px;
+            margin-left: 8rem;
+            padding: 10px;
+            border-radius: 8px;
+        }
+      
+    }
+
+    @media only screen and (min-width: 1024px) and (max-width: 1366) { 
+  
+        .tabs .tab a {
+            color: rgba(238, 110, 115, 0.7);
+            display: block;
+            font-size: 14px;
+            text-overflow: ellipsis;
+            margin-left: 100px;
+            padding: 0px 54px;
+        }
+
+        .badge {
+            font-size: 20px;
+            margin-left: 4rem;
+            padding: 10px;
+            border-radius: 8px;
+        }
+      
+    }
+
+    @media only screen and (max-width: 640px) { 
+  
+        .tabs .tab a {
+            color: rgba(238, 110, 115, 0.7);
+            display: block;
+            font-size: 14px;
+            text-overflow: ellipsis;
+            margin-left: 5px;
+            padding: 0px 10px;
+        }
+    
+        .badge {
+            font-size: 20px;
+            margin-left: 5.5rem;
+            padding: 10px;
+            border-radius: 8px;
+        }
+      
+    }
